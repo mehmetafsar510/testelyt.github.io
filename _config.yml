@@ -1,0 +1,106 @@
+title: ELYT
+description: >- # this means to ignore newlines until "baseurl:"
+  ELYT
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# host: 0.0.0.0
+# port: 4000
+elyturl: "https://elyt-dev.26man.com"
+
+nav:
+  - text: Home
+    link: /
+  - text: Influencers
+    link: /influencers
+  - text: Explore
+    link: /explore
+  - text: Events
+    link: /events
+
+footer_text: A real business model to connect influencers, communities and brands together with the utilization of NFTs. Enjoy the future NFT World.
+footer_elyt_inc: © 2022 Elyt Teknoloji A.Ş.
+footer_privacy_terms: Privacy Policy | Terms of Service
+
+footer_links:
+  - title: Company
+    content:
+      - text: About
+        link: /
+      - text: We're hiring
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSdBC2_UIRTAypA4M4dAQimc_VxdyI1-EZfvhL4Xzehxj5RnCw/viewform"
+      - text: FAQ
+        link: /faq
+      - text: Request Help
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSeNEwcPNwi2uT_NZ3qu66psOyu0J-CMlKWN6euiuKPsfwX2cg/viewform?usp=send_form"
+      - text: Bug Bounty
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSeZNIvxKcFAtmpBttwko-cmGLCf69vVGX8cRg3_pFzrRQp6VA/viewform?usp=send_form"
+      - text: Suggestion
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScYl_EplrxCE4LpLfzGy-V-YhrGABH7J9q6IoKvX9Sj0gw2Fg/viewform?usp=send_form"
+  - title: Explore
+    content:
+      - text: Decks
+        link: https://elyt-dev.26man.com/explore?types=deck
+      - text: Cards
+        link: https://elyt-dev.26man.com/explore?types=card
+      - text: Gifts
+        link: https://elyt-dev.26man.com/explore?types=gift
+      - text: NFTs for Free
+        link: https://elyt-dev.26man.com/explore?free=true
+      - text: NFTs with Serial
+        link: https://elyt-dev.26man.com/explore?serial=true
+  - title: Legal
+    content:
+      - text: Terms of Use
+        link: /legal/ELYT.Terms_of_Use.pdf
+      - text: Privacy Policy
+        link: /legal/ELYT.Privacy_Policy.pdf
+      - text: Cookie Policy
+        link: /legal/ELYT.Cookies_Policy.pdf
+      - text: Prohibition of Use
+        link: /legal/ELYT.Prohibition_Of_Use.pdf
+      - text: E. C. D. Form
+        link: /legal/ELYT.ECDF.pdf
+      - text: Legal Disclaimer
+        link: /legal/ELYT.Legal_Disclaimer.pdf
+  - title: Join the Community
+    content:
+      - text: Discord
+        link: https://discord.gg/yUuCbCRUWu
+        icon: fa-brands fa-discord
+      - text: Twitter
+        link: https://twitter.com/Elyt_Social
+        icon: fa-brands fa-twitter
+      - text: Instagram
+        link: https://instagram.com/Elyt_Social
+        icon: fa-brands fa-instagram
+      - text: Reddit
+        link: https://reddit.com/r/Elyt_Social
+        icon: fa-brands fa-reddit
+      - text: Medium
+        link: https://elyt-social.medium.com
+        icon: fa-brands fa-medium
+
+footer_privacy_terms_link: /privacy-terms
+
+collections:
+  projects:
+    output: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+include: [".well-known"]
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
